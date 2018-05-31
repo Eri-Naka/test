@@ -1,0 +1,34 @@
+/**
+ *
+ */
+
+/**
+ * @author internousdev
+ *
+ */
+public class Test {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args){
+		Person jiro = new Person();
+		jiro.name="木村次郎、";
+		jiro.age=18;
+		System.out.print(jiro.name);
+		System.out.println(jiro.age);
+
+		Person hanako= new Person();
+		hanako.name = "鈴木花子、";
+		hanako.age = 16;
+		System.out.print(hanako.name);
+		System.out.println(hanako.age);
+
+		Person eri = new Person();
+		eri.name = "中山恵里、";
+		eri.age = 24;
+		System.out.print(eri.name);
+		System.out.println(eri.age);
+	}
+
+}
