@@ -17,6 +17,11 @@ public class UserCreateConfirmAction extends ActionSupport implements SessionAwa
 	public String execute(){
 
 		String result = SUCCESS;
+		
+		/*ログインユーザーID、パスワード、ユーザーネイム　がはいってたら
+		 * 
+		 * 一つでも入力されてなかったらエラー
+		 * */
 		if(!(loginUserId.equals(""))
 				&&!(loginPassword.equals(""))
 				&&!(userName.equals(""))){

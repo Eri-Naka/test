@@ -12,7 +12,8 @@ import com.opensymphony.xwork2.ActionSupport;
 public class LoginAction extends ActionSupport implements SessionAware {
 
 	private String loginUserId;
-	private String loginPassword;
+	private
+	String loginPassword;
 	private String result;
 	private Map<String, Object>session;
 
