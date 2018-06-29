@@ -1,0 +1,15 @@
+package mathAction;
+
+public class TestAction {
+
+	private int number1;
+	private int number2;
+	private int kotae;
+
+
+
+	public void setNumber1(int num1){
+		number1 = num1;
+	}
+
+}

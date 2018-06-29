@@ -1,0 +1,28 @@
+package endoaction;
+
+public class MathAction {
+
+	private int number1;
+	private int number2;
+
+	private int kotae;
+
+
+	public void setNumber1(int number1){
+	this.number1 = number1;
+	}
+
+	public void setNumber2(int number2){
+		this.number2 = number2;
+	}
+
+
+	public String execute(){
+		return "ok";
+	}
+
+	public int getKotae(){
+		return kotae;
+	}
+
+}

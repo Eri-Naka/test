@@ -1,0 +1,25 @@
+package ageproject;
+
+public class AgeAction {
+
+	private int age;
+
+	private int send;
+
+
+	public String execute(){
+		send = age;
+		return "ok";
+	}
+
+
+	public void SetAge(int age){
+		this.age = age;
+	}
+
+	public int getSend(){
+		return send;
+	}
+
+
+}
